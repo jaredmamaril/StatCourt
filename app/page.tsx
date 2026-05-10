@@ -1,9 +1,11 @@
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Welcome to Stat Court</h1>
-    </div>
-  
+    <main className="min-h-screen bg-slate-50 text-white">
+      <header className="flex items-center justify-between px-8 py-5">
+        <div className="flex-items center gap-3">
+          <Image>src=</Image>
+        </div>
+      </header>
+    </main>
   );
 }
